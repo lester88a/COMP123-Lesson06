@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +10,18 @@ namespace COMP123_Lesson6
     {
         static void Main(string[] args)
         {
+
+            Class1 myClass = new Class1("hello");
+
+            myClass.IntegerNumber = 10;
+            myClass.DoubleNumber = 50.0;
+
+            myClass.show();
+
+            Console.Write("\n");
+            Console.WriteLine("++++++++++++++++++++++++++++++");
+            Console.WriteLine("Please hit any key to exit....");
+            Console.ReadKey();
         }
     }
 }
